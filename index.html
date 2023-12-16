@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thiago Almeida</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple page about me">
+    <meta name="author" content="Thiago Almeida">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+	<link rel="stylesheet" href="css/modified.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: '/~ sudo';
+			opacity: 0.4;
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container modified-nav">
+			<header class="group top-nav">
+			    <nav id="navbar-1" class="navbar item-nav modified-item-nav">
+				    <ul>
+				        <li><a class="nav-elements" href="https://github.com/tcalmeida">GitHub</a></li>
+				        <li><a class="nav-elements" href="https://www.linkedin.com/in/tcalmeida85/">Linkedin</a></li>
+				        <li><a class="nav-elements" href="#skills">Currículo</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<span id="typed"></span>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/logo2.png" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1 id="title-name">Thiago &#160;&#160;Almeida</h1>
+				</div>
+				<p id="about-me">
+					&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+					Olá, sou um <span class="bolded">web developer</span> comprometido a descobrir e aprender <span class="bolded">novas tecnologias</span>.
+					Tenho como lema construir aplicações fundamentadas nos pilares da <span class="bolded">segurança, confiabilidade e eficiência de performance</span>.
+					Em UI/UX design, procuro aplicar uma estética <span class="bolded">minimalista</span> contemplando a <span class="bolded">simplicidade</span>,
+					<span class="bolded">uniformidade</span> e <span class="bolded">acessibilidade</span>. <br><br>
+					<span class="bolded">Python</span>, <span class="bolded">Docker</span>, <span class="bolded">cloud</span>, <span class="bolded">livros</span>, <span class="bolded">gatos</span> e o <span class="bolded">Clube de Regatas Vasco da Gama</span> são comumente apontadas como sendo minhas paixões.
+				</p>
+			</div>
+		</div>
+	</div>
+
+<!--
+<!--	<footer>-->
+<!--		<div class="container">-->
+<!--			<div class="units-row">-->
+<!--			    <div class="unit-50 custom-footer">-->
+<!--			    	<p>Designed by t!_dev</p>-->
+<!--			    </div>-->
+<!--&lt;!&ndash;			    <div class="unit-50">&ndash;&gt;-->
+<!--&lt;!&ndash;					<ul class="social list-flat right">&ndash;&gt;-->
+<!--&lt;!&ndash;						<li><a href="mailto:afnizarhilmi@gmail.com"><i class="fa fa-send"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;						<li><a href="http://twitter.com/flamekaizar"><i class="fa fa-twitter"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;						<li><a href="http://dribbble.com/flamekaizar"><i class="fa fa-dribbble"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;						<li><a href="http://behance.com/flamekaizar"><i class="fa fa-behance"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;					</ul>&ndash;&gt;-->
+<!--&lt;!&ndash;			    </div>&ndash;&gt;-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</footer>-->
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ['Olá!', 'Hola!','Hello!', 'Bonjour!', 'Salve!', 'Guten Tag!', 'Shalom!','你好!', 'Goddag!', 'Zdravstvuyte!', 'こんにちは!' ],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>

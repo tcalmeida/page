@@ -1,0 +1,24 @@
+.main-nav {
+    display: flex;
+}
+
+.nav-elements {
+    font-size: 17px;
+}
+
+.nav-elements:hover {
+    text-decoration: underline;
+}
+
+#title-name {
+    font-size: 58px
+}
+
+.bolded:hover {
+    font-weight: 900;
+    font-size: 30px
+}
+
+#about-me {
+    font-size: 18px
+}
